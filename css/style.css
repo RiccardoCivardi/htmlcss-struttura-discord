@@ -16,7 +16,7 @@
 /* COMPONENTS */
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -37,14 +37,32 @@ header .container {
 }
 
 header .logo {
-  background-color: aqua; /* togliere*/
+  background-color: aqua; /* togliere */
 }
 
 header nav {
-  background-color: aqua; /* togliere*/
+  background-color: aqua; /* togliere */
 }
 
 header .login {
-  background-color: aqua; /* togliere*/
+  background-color: aqua; /* togliere */
 }
 
+/* MAIN */
+main .jumbotron {
+  display: flex;
+  align-items: center;
+  height: 530px; /* togliere */
+  background-color: #698EF0; /* togliere */
+}
+
+.jumbotron .container {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron .hero-container {
+  width: 750px; /* togliere */
+  height: 350px; /* togliere */
+  background-color: aqua; /* togliere */
+}
