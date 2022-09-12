@@ -44,7 +44,7 @@ header nav {
   background-color: aqua; /* togliere */
 }
 
-header .login {
+header .sign-in {
   background-color: aqua; /* togliere */
 }
 
@@ -132,3 +132,57 @@ main .download {
   align-items: center;
   background-color: rgb(43, 203, 83); /* togliere */
 }
+
+
+/* FOOTER */
+
+footer {
+  background-color: #23272A;
+  height: 600px;
+  padding: 90px 0;
+}
+
+footer .footer-top {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+footer .footer-top .social {
+  width: 30%;
+  background-color: chartreuse;
+}
+
+footer .footer-top .menu-container {
+  display: flex;
+  width: 70%;
+}
+
+footer .menu-container .menu {
+  width: 25%;
+}
+
+footer .menu-container ul{
+  list-style: none;
+}
+
+footer .menu-container a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+  border-top: 1px solid white;
+  padding-top: 30px;
+}
+
+footer .footer-bottom .logo {
+  background-color: aqua; /* togliere */
+}
+
+footer .footer-bottom .sign-up {
+  background-color: aqua; /* togliere */
+}
+
