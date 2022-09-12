@@ -1,0 +1,50 @@
+/* GENERAL */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+
+/* UTILITIES */
+
+.debug {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.25);
+}
+
+/* COMPONENTS */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items:center;
+  height: 85px;
+  background-color: #3061E0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  background-color: aqua; /* togliere*/
+}
+
+header nav {
+  background-color: aqua; /* togliere*/
+}
+
+header .login {
+  background-color: aqua; /* togliere*/
+}
+
