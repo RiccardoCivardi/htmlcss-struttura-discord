@@ -16,7 +16,7 @@
 /* COMPONENTS */
 
 .container {
-  width: 90%;
+  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -49,10 +49,11 @@ header .login {
 }
 
 /* MAIN */
+
 main .jumbotron {
   display: flex;
   align-items: center;
-  height: 530px; /* togliere */
+  height: 400px; /* togliere */
   background-color: #698EF0; /* togliere */
 }
 
@@ -63,6 +64,42 @@ main .jumbotron {
 
 .jumbotron .hero-container {
   width: 750px; /* togliere */
-  height: 350px; /* togliere */
+  height: 300px; /* togliere */
   background-color: aqua; /* togliere */
 }
+
+main .section {
+  display: flex;
+  align-items: center;
+  height: 500px; /* togliere */
+}
+
+main .section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .section.text-right {
+  background-color: rgb(190, 229, 249); /* togliere */
+}
+
+main .section.text-left {
+  background-color: #F6F6F6; 
+}
+
+
+section .img {
+  width: 450px; /* togliere */
+  height: 300px; /* togliere */
+  background-color: aqua; /* togliere */
+} 
+
+section .contents {
+  width: 300px; /* togliere */
+  height: 300px; /* togliere */
+  background-color: aqua; /* togliere */
+}
+
+.section.text-left .img {
+  order: 2;
+} 
