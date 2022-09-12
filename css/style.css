@@ -48,6 +48,7 @@ header .login {
   background-color: aqua; /* togliere */
 }
 
+
 /* MAIN */
 
 main .jumbotron {
@@ -113,5 +114,21 @@ main .figure {
 
 .figure .img {
   height: 300px; /* togliere */
+  background-color: rgb(43, 203, 83); /* togliere */
+}
+
+main .download {
+  display: flex;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-top: 2px solid red; /* togliere */
+  height: 200px; /* togliere */
+}
+
+.download .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(43, 203, 83); /* togliere */
 }
