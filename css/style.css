@@ -79,22 +79,17 @@ main .section .container {
   justify-content: space-between;
 }
 
-main .section.text-right {
-  background-color: rgb(190, 229, 249); /* togliere */
-}
-
 main .section.text-left {
   background-color: #F6F6F6; 
 }
 
-
-section .img {
+.section .img {
   width: 450px; /* togliere */
   height: 300px; /* togliere */
   background-color: aqua; /* togliere */
 } 
 
-section .contents {
+.section .contents {
   width: 300px; /* togliere */
   height: 300px; /* togliere */
   background-color: aqua; /* togliere */
@@ -103,3 +98,20 @@ section .contents {
 .section.text-left .img {
   order: 2;
 } 
+
+main .figure {
+  display: flex;
+  align-items: center;
+  height: 650px; /* togliere */
+  background-color: #F6F6F6;
+}
+
+.figure .text-top {
+  height: 100px; /* togliere */
+  background-color: aqua; /* togliere */
+}
+
+.figure .img {
+  height: 300px; /* togliere */
+  background-color: rgb(43, 203, 83); /* togliere */
+}
