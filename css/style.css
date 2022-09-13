@@ -6,17 +6,10 @@
 }
 
 
-/* UTILITIES */
-
-.debug {
-  border: 1px solid red;
-  background-color: rgba(255, 0, 0, 0.25);
-}
-
 /* COMPONENTS */
 
 .container {
-  width: 70%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -27,7 +20,7 @@
 header {
   display: flex;
   align-items:center;
-  height: 85px;
+  height: 80px;
   background-color: #3061E0;
 }
 
@@ -37,101 +30,80 @@ header .container {
 }
 
 header .logo {
-  background-color: aqua; /* togliere */
+  /* DEBUG */
+  background-color: aqua; 
 }
 
-header nav {
-  background-color: aqua; /* togliere */
+header .menu {
+  /* DEBUG */
+  background-color: aqua; 
 }
 
-header .sign-in {
-  background-color: aqua; /* togliere */
+header .button {
+  /* DEBUG */
+  background-color: aqua; 
+}
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px; 
+
+  /* DEBUG */
+  background-color: #698EF0; 
+}
+
+.jumbotron .hero {
+  max-width: 800px; 
+
+  /* DEBUG */
+  height: 300px; 
+  background-color: aqua; 
 }
 
 
 /* MAIN */
 
-main .jumbotron {
-  display: flex;
-  align-items: center;
-  height: 400px; /* togliere */
-  background-color: #698EF0; /* togliere */
-}
-
-.jumbotron .container {
-  display: flex;
-  justify-content: center;
-}
-
-.jumbotron .hero-container {
-  width: 750px; /* togliere */
-  height: 300px; /* togliere */
-  background-color: aqua; /* togliere */
-}
-
-main .section {
-  display: flex;
-  align-items: center;
-  height: 500px; /* togliere */
-}
-
-main .section .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-main .section.text-left {
-  background-color: #F6F6F6; 
-}
-
-.section .img {
-  width: 450px; /* togliere */
-  height: 300px; /* togliere */
-  background-color: aqua; /* togliere */
-} 
-
-.section .contents {
-  width: 300px; /* togliere */
-  height: 300px; /* togliere */
-  background-color: aqua; /* togliere */
-}
-
-.section.text-left .img {
-  order: 2;
-} 
-
-main .figure {
-  display: flex;
-  align-items: center;
-  height: 650px; /* togliere */
+section.bg-grey {
   background-color: #F6F6F6;
 }
 
-.figure .text-top {
-  height: 100px; /* togliere */
-  background-color: aqua; /* togliere */
-}
-
-.figure .img {
-  height: 300px; /* togliere */
-  background-color: rgb(43, 203, 83); /* togliere */
-}
-
-main .download {
+section .container {
   display: flex;
-  align-items: center;
-  background-color: #F6F6F6;
-  border-top: 2px solid red; /* togliere */
-  height: 200px; /* togliere */
+
+  /* DEBUG */
+  background-color: aqua; 
+  min-height: 500px; 
 }
 
-.download .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(43, 203, 83); /* togliere */
+section .container .image {
+  width: 60%;
+
+  /* DEBUG */
+  min-height: 300px; 
+  background-color: rgb(246, 101, 4); 
+} 
+
+section .container .text {
+  width: 40%;
+
+  /* DEBUG */
+  min-height: 300px; 
+  background-color: rgb(182, 26, 162); 
 }
+
+section.section-bottom .container {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+
 
 
 /* FOOTER */
@@ -142,47 +114,46 @@ footer {
   padding: 90px 0;
 }
 
-footer .footer-top {
+.footer-top {
   display: flex;
-  padding-bottom: 30px;
-}
-
-footer .footer-top .social {
-  width: 30%;
+  
+  /* DEBUG */
+  min-height: 300px;
   background-color: chartreuse;
 }
 
-footer .footer-top .menu-container {
-  display: flex;
-  width: 70%;
+.footer-top .col-social {
+  width: calc(100% / 3);
+
+  /* DEBUG */
+  min-height: 200px;
+  background-color: darkgreen;
 }
 
-footer .menu-container .menu {
-  width: 25%;
+.footer-top .col-menu {
+  width: calc(100% / 6);
+
+  /* DEBUG */
+  min-height: 200px;
+  background-color: deeppink;
 }
 
-footer .menu-container ul{
-  list-style: none;
-}
-
-footer .menu-container a {
-  color: white;
-  text-decoration: none;
-}
-
-footer .footer-bottom {
+.footer-bottom {
   display: flex;
   justify-content: space-between;
-  height: 30%;
-  border-top: 1px solid white;
-  padding-top: 30px;
+  align-items: flex-start;
+  
+  /* DEBUG */
+  min-height: 200px;
+  background-color: rgb(237, 110, 231);
 }
 
-footer .footer-bottom .logo {
-  background-color: aqua; /* togliere */
+.footer-bottom .logo {
+  /* DEBUG */
+  background-color: aqua; 
 }
 
-footer .footer-bottom .sign-up {
-  background-color: aqua; /* togliere */
+.footer-bottom .button {
+  /* DEBUG */
+  background-color: aqua; 
 }
-
